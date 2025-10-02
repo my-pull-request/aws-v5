@@ -4,6 +4,7 @@ server:
     encoding:
       charset: utf-8
 
+# good
 spring:
   datasource:
     url: jdbc:mariadb://${rds.hostname}:${rds.port}/${rds.db.name}?allowPublicKeyRetrieval=true&useSSL=false
